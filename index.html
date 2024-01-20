@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Project</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Alice&family=Montserrat:ital,wght@0,400;0,500;1,300&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/vendor.min.css?=1705756015019">
+	<link rel="stylesheet" href="css/main.min.css?=1705756015019">
+</head>
+
+
+<body class="wrapper">
+
+    <header class="header">
+
+</header>
+    <main class="main">
+        <section class="section">
+            <div class="container">
+                <form action="обработчик.php" method="post" id="form">
+
+                    <h2>Тест</h2>
+
+                    <div class="box" style="margin-bottom: 30px;">
+                        <label for="name">Имя:</label>
+                        <input class="ipt-simple" type="text" id="name" name="name" required>
+
+                        <label for="phone">Телефон:</label>
+                        <input class="ipt-simple" type="tel" id="phone" name="phone" pattern="[0-9]{10}"
+                            placeholder="Введите 10 цифр" required>
+                    </div>
+                    <div class="box">
+                        <p>Твой Любимый комик ?</p>
+                        <label>
+                            <input type="radio" name="q1" value="Тимур"> Тимур Шиверских
+                        </label>
+                        <label>
+                            <input type="radio" name="q1" value="Тима"> Тима Жалдыбаев
+                        </label>
+                        <label>
+                            <input type="radio" name="q1" value="Вероника"> Вероника Ким чанын
+                        </label>
+                        <label>
+                            <input type="radio" name="q1" value="Саша"> Саша Нестере
+                        </label>
+                        <label>
+                            <input type="radio" name="q1" value="Нуреке"> Нуреке
+                        </label>
+                        <label>
+                            <input type="radio" name="q1" value="Саныч"> Саныч
+                        </label>
+                    </div>
+                    <div class="box">
+                        <p>А алалаылвалываловыао?</p>
+                        <label>
+                            <input type="radio" name="q2" value="Тимур"> Тимур Шиверских
+                        </label>
+                        <label>
+                            <input type="radio" name="q2" value="Тима"> Тима Жалдыбаев
+                        </label>
+                        <label>
+                            <input type="radio" name="q2" value="Вероника"> Вероника Ким чанын
+                        </label>
+                        <label>
+                            <input type="radio" name="q2" value="Саша"> Саша Нестере
+                        </label>
+                        <label>
+                            <input type="radio" name="q2" value="Нуреке"> Нуреке
+                        </label>
+                        <label>
+                            <input type="radio" name="q2" value="Саныч"> Саныч
+                        </label>
+                    </div>
+                    <div class="box">
+                        <p>Гей ли я?</p>
+                        <label>
+                            <input type="radio" name="q3" value="Тимур"> Тимур Шиверских
+                        </label>
+                        <label>
+                            <input type="radio" name="q3" value="Тима"> Тима Жалдыбаев
+                        </label>
+                        <label>
+                            <input type="radio" name="q3" value="Вероника"> Вероника Ким чанын
+                        </label>
+                        <label>
+                            <input type="radio" name="q3" value="Саша"> Саша Нестере
+                        </label>
+                        <label>
+                            <input type="radio" name="q3" value="Нуреке"> Нуреке
+                        </label>
+                        <label>
+                            <input type="radio" name="q3" value="Саныч"> Саныч
+                        </label>
+                    </div>
+                    <button type="button" id="result">Узнать результаты !</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <div class="overlay" id="overlay">
+        <div class="modal">
+            <span class="close-btn" id="close-btn">Закрыть</span>
+            <h2 id="title-modal"></h2>
+            <div class="img-wrapper">
+                <img id="img-modal" src="" alt="Фотка">
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer">
+	<!-- templates -->
+</footer>
+
+    <!-- <script src="js/vendor.min.js?=1705756015019"></script> -->
+<script src="js/main.min.js?=1705756015019"></script>
+</body>
+
+</html>
